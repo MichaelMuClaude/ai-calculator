@@ -67,6 +67,10 @@ python -m venv .venv
 .venv/bin/python -m pytest
 ```
 
+## Contributing
+
+Humans and AI agents are both welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for the process and [AGENTS.md](AGENTS.md) for the rules that agents should follow.
+
 ## Licence
 
-Not yet chosen.
+MIT. See [LICENSE](LICENSE).
