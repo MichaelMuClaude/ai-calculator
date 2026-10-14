@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ai-calc"
+version = "0.1.0"
+description = "A small, safe CLI calculator for AI agents."
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+ai-calc = "ai_calc.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ai_calc"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
